@@ -7,16 +7,16 @@
 </head>
 <body>
 	<div class="navbar">
-  		<a href="home.html">Home</a>
-  		<a href="about.html">About Me</a>
+  		<a href="index.html"> Home </a>
+  		<a href="about.html"> About Me </a>
   		<div class="dropdown">
-   		 <button class="dropbtn">Games 
-      		<i class="fa fa-caret-down"></i>
-   		 </button>
+			<button class="dropbtn"> Games 
+				<i class="fa fa-caret-down"></i>
+			</button>
     		<div class="dropdown-content">
-      			<a href="car.html">Taxi Driver</a>
-      			<a href="rockPaper.html">Rock,Paper,Scissors</a>
-				<a href="movie.html">Guess The Movie</a>	
+      			<a href="car.html"> Taxi Driver </a>
+      			<a href="rockPaper.html"> Rock,Paper,Scissors </a>
+				<a href="movie.html"> Guess The Movie </a>	
     		</div>
   		</div> 
 	</div>
@@ -29,41 +29,40 @@
 			<div id="person2"></div>
 		</div>
 		<div id="inputs">
-			<button class="butt" type="button" onclick="setUpCar()">Start</button>
-			<button class="butt" type="button" onclick="refresh()">Refresh</button>
-			<button class="butt" type="button" onclick="setUpPassenger()">Passenger</button>
+			<button class="butt" type="button" onclick="setUpCar()"> Start </button>
+			<button class="butt" type="button" onclick="refresh()"> Refresh </button>
+			<button class="butt" type="button" onclick="setUpPassenger()"> Passenger </button>
 		</div>
 		<div id="score1">
-		<p id="note">LET'S SEE WHO IS THE WINNER!</p>
+			<p id="note"> LET'S SEE WHO IS THE WINNER! </p>
 		</div>
-	
 		<form id="form" >
 			<label ></label>
-			<label for="player1">Player1</label><br>
-			<label for="player1">Distance</label>
+			<label for="player1"> Player1 </label><br>
+			<label for="player1"> Distance </label>
 			<input id="dis1" type="number" name="distance1" value="0"><br><br>
-			<label id="name2" for="player2">Player2</label><br>
-			<label for="player2">Distance</label>
+			<label id="name2" for="player2"> Player2 </label><br>
+			<label for="player2"> Distance </label>
 			<input id="dis2" type="number" name="distance2" value="0"><br><br>	
 		</form>
-		<button id="enter" type="button" onclick="getDistance()">Enter</button>
+		<button id="enter" type="button" onclick="getDistance()"> Enter </button>
 		<div id="desc">
-			<h4>DESCRIPTION</h4>
-			<p>the purpose of this game is to guess the distance in a way that car gets to the passenger. the sizes of the highway, cars and passnegers are 1000px,90px, and 20px respectivly.</p>
-			<p>the player wins tha game if the car stops in a way that passenger has access to the car's door.</p>
+			<h4> DESCRIPTION </h4>
+			<p> The purpose of this game is to guess the distance in a way that car gets to the passenger.
+				 the sizes of the highway, cars and passnegers are 1000px,90px, and 20px respectivly.
+			</p>
+			<p> The player wins tha game if the car stops in a way that passenger has access to the car's door. </p>
 		</div>
 		<div id="how">
-			<h4>HOW TO PLAY</h4>
+			<h4> HOW TO PLAY </h4>
 			<ol id="list">
-				<li>Click on the <strong>passenger</strong> botton to place the passenger on the gameboard</li>
-				<li>Players put their distance numbers from 0 to 1000 and click on <strong>Enter</strong></li>
-				<li>click on <strong>Start</strong> to start the game</li>
-				<li>click on <strong>Refresh</strong> to restart the game</li>
+				<li> Click on the <strong>passenger</strong> botton to place the passenger on the gameboard </li>
+				<li> Players put their distance numbers from 0 to 1000 and click on <strong>Enter</strong></li>
+				<li> click on <strong>Start</strong> to start the game </li>
+				<li> click on <strong>Refresh</strong> to restart the game </li>
 			</ol>
 		</div>
 	</div>
-		
-
-</body>
 <script src="js/car.js"></script>
+</body>
 </html>

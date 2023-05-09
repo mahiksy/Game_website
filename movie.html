@@ -9,16 +9,14 @@
 </head>
 <body>
 <div class="navbar" style="background-color:#ABFF70;">
-  	<a href="home.html">Home</a>
-  	<a href="about.html">About Me</a>
+  	<a href="index.html"> Home </a>
+  	<a href="about.html"> About Me </a>
   	<div class="dropdown">
-   		<button class="dropbtn">Games 
-      		<i class="fa fa-caret-down"></i>
-   		</button>
+   		<button class="dropbtn"> Games <i class="fa fa-caret-down"></i> </button>
     	<div class="dropdown-content" style="background-color: #72C835;">
-      		<a href="car.html">Taxi Driver</a>
-      		<a href="rockPaper.html">Rock,Paper,Scissors</a>
-      		<a href="movie.html">Guess The Movie</a>
+      		<a href="car.html"> Taxi Driver </a>
+      		<a href="rockPaper.html"> Rock,Paper,Scissors </a>
+      		<a href="movie.html"> Guess The Movie </a>
     	</div>
   	</div> 
 </div>
@@ -29,14 +27,14 @@
 		<input class="menuB" id="medium" style="background-color: #F9A26A;" type="button"  value="Medium" onclick="getLvl('medium')">
 		<input class="menuB" id="hard" style="background-color: #FC5555;" type="button"  value="Hard" onclick="getLvl('hard')">
 	</form>
-	<div class="header"><h1>Guess the Movie!</h1></div>
+	<div class="header"><h1> Guess the Movie! </h1></div>
 	<form  class="game">
 		<div class="score">
-			<p id="score"><strong>Score: 0</strong></p>
+			<p id="score"><strong> Score: 0 </strong></p>
 		</div>
 		<input class="gameB" style="width: 60px; margin-left: 15px; margin-top: 15px"type="button" Value="Menu" onclick="backMenu()">
 		<div class="movieBox">
-			<p id="movie">😂😂😂😂😂😂😂😂</p>
+			<p id="movie"> 😂😂😂😂😂😂😂😂 </p>
 		</div>
 		
 		<input id="answer" type="text" >
@@ -44,23 +42,25 @@
 		<input id="next" class="gameB"type="button" id="submit" style="  margin-left: 210px;display:none;" value="Next" onclick="nextMovie()">
 		<input id="submit" class="gameB"type="button" id="submit" style="  margin-left: 310px;" value="Submit" onclick="checkAnswer()">
 	</form>
-		
 </div>
+
 <div id="resultMsg">
 		<p></p>	
 </div>
+
 <div class="description">
 	<p><strong>How tO Play</strong></p>
-	<p><strong>1.</strong> choose a level that you want to play.(Easy: one word movies, Medium: two words movies, Hard: more than two words)</p>
-	<p><strong>2.</strong> click on the Start button to start the game.</p>
-	<p><strong>3.</strong> type the name of the movie.( you can clear the input box by clicking the Clear button)</p>
-	<p><strong>4.</strong> Click on the Submit button to check your asnwer.</p>
+	<p><strong>1.</strong> choose a level that you want to play.(Easy: one word movies, Medium: two words movies, Hard: more than two words) </p>
+	<p><strong>2.</strong> click on the Start button to start the game. </p>
+	<p><strong>3.</strong> type the name of the movie.( you can clear the input box by clicking the Clear button) </p>
+	<p><strong>4.</strong> Click on the Submit button to check your asnwer. </p>
 	<br>
 
-	<p><strong>How to Win</strong></p>
-	<p>If you can guess all movies correctly you will win the game howver, if you guess a movie incorrectly, you will lose and need to start the game again.</p>
+	<p><strong> How to Win </strong></p>
+	<p> If you can guess all movies correctly you will win the game howver,
+		 if you guess a movie incorrectly, you will lose and need to start the game again.
+	</p>
 </div>
 <script type="text/javascript" src="js/movie.js"></script>
 </body>
-
 </html>

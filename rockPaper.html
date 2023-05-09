@@ -9,16 +9,16 @@
 </head>
 <body>
 <div class="navbar" style="background-color:#F2F569;">
-  	<a href="home.html">Home</a>
-  	<a href="about.html">About Me</a>
+  	<a href="index.html"> Home </a>
+  	<a href="about.html"> About Me </a>
   	<div class="dropdown">
-   		<button class="dropbtn">Games 
+   		<button class="dropbtn"> Games 
       		<i class="fa fa-caret-down"></i>
    		</button>
     	<div class="dropdown-content" style="background-color: #AEB208;">
-      		<a href="car.html">Taxi Driver</a>
-      		<a href="rockPaper.html">Rock,Paper,Scissors</a>
-      		<a href="movie.html">Guess The Movie</a>
+      		<a href="car.html"> Taxi Driver </a>
+      		<a href="rockPaper.html"> Rock,Paper,Scissors </a>
+      		<a href="movie.html"> Guess The Movie </a>
     	</div>
   	</div> 
 </div>
@@ -27,23 +27,28 @@
 	<img class="img" src="img/paper.png" style="top:165px;">
 	<img class="img" src="img/scissors.jpg" style="top:280px;">
 	<input class="options" type="button" onclick="getOption('rock')">
-		<input class="options" style="top:165px;"type="button" onclick="getOption('paper')">
-			<input class="options" style="top:280px;"type="button" onclick="getOption('scissors')">
-	
+	<input class="options" style="top:165px;"type="button" onclick="getOption('paper')">
+	<input class="options" style="top:280px;"type="button" onclick="getOption('scissors')">
 	<input class="submitB" type="button" value="Fight" onclick="fight()">
-		<input class="tryB" id="nextRound" type="button" value="Next Round" onclick="callingNext()">
-			<input class="tryB" style="top:370px;" id="tryAgain" type="button" value="Play Again!" onclick="playAgain()">
-	<div class="result" id="result"><p id="note"></p></div>
+	<input class="tryB" id="nextRound" type="button" value="Next Round" onclick="callingNext()">
+	<input class="tryB" style="top:370px;" id="tryAgain" type="button" value="Play Again!" onclick="playAgain()">
+	<div class="result" id="result">
+		<p id="note"></p>
+	</div>
 	<img class="img" id="img" style="opacity:0; top:165px; left:470px;" src="rock/rock.png">
 </form>
+
 <div class="description">
 	<h3>How To Play</h3>
-	<p class="desc"><strong>1.</strong> First choose one of the moves you want to play.</p>
-		<p class="desc"><strong>2.</strong> click on Fight button to start the game.</p>
-			<p class="desc"><strong>3.</strong> Next Round button appears when the result of the game displays. click on the button to start the next round.</p>
-				<p class="desc"><strong>4.</strong> who wins 3 rounds is the winner and when we have a winner, Play Again button appears which allows you to start the new game.</p>
+	<p class="desc"><strong>1.</strong> First choose one of the moves you want to play. </p>
+	<p class="desc"><strong>2.</strong> click on Fight button to start the game. </p>
+	<p class="desc"><strong>3.</strong> Next Round button appears when the result of the game displays.
+		 click on the button to start the next round.
+	</p>
+	<p class="desc"><strong>4.</strong> who wins 3 rounds is the winner and when we have a winner,
+		 Play Again button appears which allows you to start the new game.
+	</p>
 </div>
 <script type="text/javascript" src="js/rock.js"></script>
 </body>
-
 </html>
