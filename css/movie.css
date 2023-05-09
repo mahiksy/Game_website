@@ -1,0 +1,153 @@
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #72C835;
+}
+.dropdown-content a:hover {
+  background-color: red;
+  background-image:linear-gradient(#72C835,#3DFFB3);
+}
+
+.gameBoard{
+  width: 800px;
+  height: 500px;
+  margin:0;
+  background-color: #ADFDC6;
+  position: absolute;
+  float: left;
+  top:100px;
+  left:40px;
+}
+.menu{
+  position:absolute;
+  float: left;
+  background-color: #386F56;
+  width: 120px;
+  height: 100%;
+}
+
+.menuB{
+  float: left;
+  display: inline-block;
+  width:90px;
+  height: 40px;
+  margin-left: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #F4F96A;
+  opacity: 80%;
+}
+.menuB:hover{
+    border-left: 4px  solid  black;
+    border-bottom: 4px  solid  black;
+}
+.menuB:focus{
+  opacity: 100%;
+}
+.header{
+  position: absolute;
+  float: left;
+  left:270px;
+  color: #285B44;
+  font-size: 25px;
+}
+.game{
+  position:absolute;
+  float: left;
+  width: 500px;
+  height: 370px;
+  left:210px;
+  top:100px;
+  display: none;
+}
+.score{
+  position: relative;
+  float:right;
+  background-color: #08C670;
+  right:15px;
+  top:15px;
+  width: 85px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+#answer{
+  position: absolute;
+  float: left;
+  width: 270px;
+  height: 40px;
+  left:115px;
+  top:170px;
+  font-size:25px;
+  background-color:  #75FFC0;
+  color: #285B44;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.gameB{
+  position: absolute;
+  float: left;
+  display: inline-block;
+  width:90px;
+  height: 40px;
+  margin-left: 110px;
+  margin-top: 230px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #F4F96A;
+  opacity: 80%;
+}
+.gameB:hover{
+  background-color: #CDF614;
+}
+#resultMsg{
+  position: absolute;
+  float: left;
+}
+#resultMsg{
+  position: absolute;
+  float: left;
+  width: 270px;
+  height: 85px;
+  left: 365px;
+  top:500px;
+  text-align: center;
+  color: #285B44;
+  font-size: 22px;
+
+}
+.description{
+  width: 350px;
+  height: 500px;
+  margin:0;
+  background-image:linear-gradient(#ADFDC6,#3DC2AE);
+  position: absolute;
+  float: right ;
+  top:100px;
+  right:40px;
+  text-align: left;
+  text-align: 20px;
+}
+.movieBox{
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  float: left ;
+  left: 104px;
+  top:70px;
+  text-align: center;
+
+}
+#movie{
+  text-align: center;
+  font-size: 30px;
+}
+#score{
+  color: #224B38;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 0;
+}
+p{
+  margin-left: 10px;
+}

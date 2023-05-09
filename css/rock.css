@@ -1,0 +1,123 @@
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #AEB208;
+}
+.dropdown-content a:hover {
+  background-color: red;
+  background-image:linear-gradient(#AEB208,#52FA1C);
+}
+.boardGame{
+  float: left;
+  position: absolute;
+  background-color:#FEFFD2;
+  width:60%;
+  height:440px;
+  top:100px;
+  left:50px;
+}
+
+.options{
+  position: absolute;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-size:150px;
+  top:50px;
+  left:75px; 
+  border-radius: 50%; 
+  opacity: 0;
+  background-color: #95FC74;
+
+}
+.img{
+  position: absolute;
+  float: left;
+  left:75px;
+  top:50px;
+  width: 100px;
+  height: 100px;
+  opacity:100;
+}
+.options:hover{
+  opacity: 20%;
+}
+.options:focus{
+  opacity: 35%;
+}
+.submitB{
+  position: absolute;
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-size:150px;
+  top:145px;
+  left:250px; 
+  border-radius: 50%; 
+  opacity: 100;
+  background-color: #95FC74;
+}
+.submitB:active{
+  background-color: #29A900;
+}
+.tryB{
+  position: absolute;
+  float: left;
+  width: 85px;
+  height: 50px;
+  background-size:150px;
+  top:310px;
+  left:282px; 
+  border-radius: 50%; 
+  opacity: 100;
+  background-color: #30B705;
+  opacity: 0;
+}
+.result{
+  position: absolute;
+  float: left;
+  width: 180px;
+  height: 75px;
+  background-size:150px;
+  top:20px;
+  left:239px; 
+  border-radius: 50%; 
+  opacity: 100;
+  background-color: #E3F71A;
+  opacity: 0;
+}
+#note{
+  position: absolute;
+  float: left;
+  font-size: 20px; 
+  text-align: center;
+  left: 30px; 
+  top:3px;
+
+}
+.description{
+  position: absolute;
+  float: left;
+  top:100px;
+  left:700px;
+  width: 30%;
+  height: 440px;
+  background-image:linear-gradient(#FEFFD2,#52FA1C);
+  display: inline-block;
+}
+h3{
+  text-align: center;
+  padding-bottom: 15px;
+
+.desc{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 17px;
+}
+
+
+
+
+        else if(calculator.operator != "" && calculator.checkOperate){
+            operation();
+            calculator.operator = op;
+            console.log(calculator.operator);
+        }

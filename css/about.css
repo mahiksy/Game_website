@@ -1,0 +1,44 @@
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #AA3196;
+}
+.dropdown-content a:hover {
+  background-color: red;
+  background-image:linear-gradient(#AA3196,#E73DA9);
+}
+.imgageBox{
+  width:40%;
+  height: 500px;
+  background-color: #FFD7FF;
+  position: absolute;
+  float: left;
+  left:20px;
+  top:100px;
+}
+
+.bioBox{
+  width: 55%;
+  height: 500px;
+  background-color:#FFD7FF;
+  position: absolute;
+  float: right;
+  right:20px;
+  top:100px;
+}
+#img{
+  width: 450px;
+  border: 3px solid black;
+  margin:10px;
+  float: left;
+  position: absolute;
+  left: 15px;
+}
+h1{
+  color:#702970;
+  text-align: center;
+}
+p{
+  float: left;
+  color: #451A45;
+  font-size: 22px;
+  margin-left: 10px;
+}

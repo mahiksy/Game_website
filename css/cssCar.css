@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: black;
+
+}
+.navbar {
+  overflow: hidden;
+  background-color: orangered;
+}
+a{
+	text-decoration: none;
+}
+.navbar a {
+  float: left;
+  font-size: 120%;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: fantasy;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 120%;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: fantasy;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: orangered;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+  background-image:linear-gradient(red,yellow);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+#total{
+	position: relative;
+	top: 50px;
+}
+#game{
+background-image: url('../img/street.jpg');
+background-size: 1000px 300px;
+background-color: dimgray;
+width: 1000px;
+height: 300px;
+border: solid 1px;
+position: block;
+margin-left: auto;
+margin-right: auto;
+}
+#score1{
+padding: 10px;
+display: inline-block;
+margin-left: 650px;
+margin-right: auto;
+background-color: yellow;
+background-image: linear-gradient(red,yellow);
+width:500px;
+height:50px;
+position: relative;
+bottom: 50px;
+right: 20px;
+}
+#note{
+ font-size: 120%;
+ text-align: center;
+ font-family: fantasy;
+ padding-top: 10px;
+}
+#inputs{
+	background-color: transparent;
+	display: inline-block;
+	margin-left: 200px;
+	margin-right: auto;
+	width: 400px;
+	margin:20px;
+	height: 35px;
+	position: relative;
+	left: 130px;
+	top: 5px;
+}
+#dis1{
+	width: 35%;
+}
+#dis2{
+	width: 35%;
+}
+.butt{ 
+	display: inline-block;
+	font-size: 105%;
+	margin-right: 10px;
+	font-family: fantasy;
+	width: 100px;
+	height: 40px;
+	background-color:yellow;
+	background-image: linear-gradient(red,yellow);
+}
+#how{
+	padding: 10px;
+
+	background-color: yellow;
+	background-image: linear-gradient(orangered,yellow);
+	display: inline-block;
+	font-size: 105%;
+	font-family: fantasy;
+	width: 500px;
+	position: relative;
+	left: 630px;
+}
+#desc{
+	padding: 10px;
+	background-color: yellow;
+	background-image: linear-gradient(orange,yellow);
+	display: inline-block;
+	font-size: 105%;
+	font-family: fantasy;
+	width: 500px;
+	position: relative;
+	left: 273px;
+	bottom: 30px;
+}
+#enter{
+	display: inline-block;
+	font-size: 105%;
+	font-family: fantasy;
+	width: 100px;
+	height: 40px;
+	background-color:yellow;
+	background-image: linear-gradient(red,yellow);
+	position: relative;
+	left: 125px;
+	bottom: 155px;
+}
+#list{
+	padding: 10px;
+}
+#form{
+	display: inline-block;
+	background-color: white;
+	background-image: linear-gradient(red,yellow);
+	width: 210px;
+	margin:
+	20px;
+	height: 100px;
+	position: relative;
+	left: 132px;
+	bottom:70px;
+}
+#car1{
+	background-image: url('../img/car1.png');
+	background-size: 90px 50px;
+	width: 90px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	top: 75px;
+	left: 0px;
+}
+#car2{
+	background-image: url('../img/car2.png');
+	background-size: 90px 50px;
+	width: 90px;
+	height: 50px;
+	background-color: transparent;
+	position: relative;
+	top: 125px;
+	left: 0px;
+}
+#person{
+	background-image: url('../img/person.png');
+	background-size: 20px 20px;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 160px
+}
+#person2{
+	background-image: url('../img/person.png');
+	background-size: 20px 20px;
+	background-color: transparent;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	bottom: 100px;
+}
+
+
+@keyframes drive
+{
+	from{left: 0px;}
+	to{left: 910px;}
+}
